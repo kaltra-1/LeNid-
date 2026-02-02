@@ -1,0 +1,674 @@
+﻿@host = https://localhost:7067
+
+#############################
+# AGENTS (20)
+#############################
+
+### Agent 1
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Ardit Hoxha",
+  "phone": "0692013456",
+  "email": "ardit.hoxha@lenid.al"
+}
+
+### Agent 2
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Elira Dervishi",
+  "phone": "0684451123",
+  "email": "elira.dervishi@lenid.al"
+}
+
+### Agent 3
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Gentian Kola",
+  "phone": "0698876543",
+  "email": "gentian.kola@lenid.al"
+}
+
+### Agent 4
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Bruna Shehu",
+  "phone": "0673321987",
+  "email": "bruna.shehu@lenid.al"
+}
+
+### Agent 5
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Sokol Leka",
+  "phone": "0689901234",
+  "email": "sokol.leka@lenid.al"
+}
+
+### Agent 6
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Kejsi Meta",
+  "phone": "0691234098",
+  "email": "kejsi.meta@lenid.al"
+}
+
+### Agent 7
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Erion Pasha",
+  "phone": "0675512349",
+  "email": "erion.pasha@lenid.al"
+}
+
+### Agent 8
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Rovena Gashi",
+  "phone": "0687711223",
+  "email": "rovena.gashi@lenid.al"
+}
+
+### Agent 9
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Florian Zeka",
+  "phone": "0693332211",
+  "email": "florian.zeka@lenid.al"
+}
+
+### Agent 10
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Ina Kryeziu",
+  "phone": "0678899001",
+  "email": "ina.kryeziu@lenid.al"
+}
+
+### Agent 11
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Dorian Balla",
+  "phone": "0681029384",
+  "email": "dorian.balla@lenid.al"
+}
+
+### Agent 12
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Sara Vata",
+  "phone": "0695566778",
+  "email": "sara.vata@lenid.al"
+}
+
+### Agent 13
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Klevis Berisha",
+  "phone": "0672345678",
+  "email": "klevis.berisha@lenid.al"
+}
+
+### Agent 14
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Xhensila Nika",
+  "phone": "0683456789",
+  "email": "xhensila.nika@lenid.al"
+}
+
+### Agent 15
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Arbër Prifti",
+  "phone": "0697778889",
+  "email": "arber.prifti@lenid.al"
+}
+
+### Agent 16
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Enea Doda",
+  "phone": "0671112233",
+  "email": "enea.doda@lenid.al"
+}
+
+### Agent 17
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Megi Çela",
+  "phone": "0682223344",
+  "email": "megi.cela@lenid.al"
+}
+
+### Agent 18
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Renato Lila",
+  "phone": "0694445566",
+  "email": "renato.lila@lenid.al"
+}
+
+### Agent 19
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Erisa Shala",
+  "phone": "0679988776",
+  "email": "erisa.shala@lenid.al"
+}
+
+### Agent 20
+POST {{host}}/api/Agents
+Content-Type: application/json
+
+{
+  "name": "Blendi Beqiri",
+  "phone": "0689090909",
+  "email": "blendi.beqiri@lenid.al"
+}
+
+#############################
+# PROPERTIES (20)
+#############################
+
+### Property 1
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 2+1 te Komuna e Parisit",
+  "location": "Tiranë - Komuna e Parisit",
+  "type": "Apartment",
+  "bedrooms": 2,
+  "price": 98000
+}
+
+### Property 2
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Garsoniere te Blloku",
+  "location": "Tiranë - Blloku",
+  "type": "Studio",
+  "bedrooms": 1,
+  "price": 72000
+}
+
+### Property 3
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 3+1 te Liqeni Artificial",
+  "location": "Tiranë - Liqeni",
+  "type": "Apartment",
+  "bedrooms": 3,
+  "price": 165000
+}
+
+### Property 4
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Vilë moderne në Lundër",
+  "location": "Tiranë - Lundër",
+  "type": "Villa",
+  "bedrooms": 4,
+  "price": 320000
+}
+
+### Property 5
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 1+1 te 21 Dhjetori",
+  "location": "Tiranë - 21 Dhjetori",
+  "type": "Apartment",
+  "bedrooms": 1,
+  "price": 83000
+}
+
+### Property 6
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 2+1 te Selvia",
+  "location": "Tiranë - Selvia",
+  "type": "Apartment",
+  "bedrooms": 2,
+  "price": 95000
+}
+
+### Property 7
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Shtëpi private në Farkë",
+  "location": "Tiranë - Farkë",
+  "type": "House",
+  "bedrooms": 3,
+  "price": 210000
+}
+
+### Property 8
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 2+1 pranë Zogut të Zi",
+  "location": "Tiranë - Zogu i Zi",
+  "type": "Apartment",
+  "bedrooms": 2,
+  "price": 105000
+}
+
+### Property 9
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 1+1 te Ali Demi",
+  "location": "Tiranë - Ali Demi",
+  "type": "Apartment",
+  "bedrooms": 1,
+  "price": 69000
+}
+
+### Property 10
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Duplex me pamje nga deti",
+  "location": "Durrës - Vollga",
+  "type": "Duplex",
+  "bedrooms": 3,
+  "price": 190000
+}
+
+### Property 11
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 2+1 në Qendër",
+  "location": "Shkodër - Qendër",
+  "type": "Apartment",
+  "bedrooms": 2,
+  "price": 88000
+}
+
+### Property 12
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Vilë me oborr në Gjirin e Lalzit",
+  "location": "Durrës - Gjiri i Lalzit",
+  "type": "Villa",
+  "bedrooms": 4,
+  "price": 275000
+}
+
+### Property 13
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 1+1 te Ish-Blloku",
+  "location": "Tiranë - Ish-Blloku",
+  "type": "Apartment",
+  "bedrooms": 1,
+  "price": 110000
+}
+
+### Property 14
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Shtëpi guri e restauruar",
+  "location": "Gjirokastër - Qafa e Pazarit",
+  "type": "House",
+  "bedrooms": 3,
+  "price": 145000
+}
+
+### Property 15
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 2+1 te Medreseja",
+  "location": "Tiranë - Medrese",
+  "type": "Apartment",
+  "bedrooms": 2,
+  "price": 92000
+}
+
+### Property 16
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Studio për qira afatgjatë",
+  "location": "Tiranë - Don Bosko",
+  "type": "Studio",
+  "bedrooms": 1,
+  "price": 52000
+}
+
+### Property 17
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 3+1 te Fresku",
+  "location": "Tiranë - Fresku",
+  "type": "Apartment",
+  "bedrooms": 3,
+  "price": 118000
+}
+
+### Property 18
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 2+1 me parkim",
+  "location": "Elbasan - Qendër",
+  "type": "Apartment",
+  "bedrooms": 2,
+  "price": 76000
+}
+
+### Property 19
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Vilë luksoze në Rolling Hills",
+  "location": "Tiranë - Petrelë",
+  "type": "Villa",
+  "bedrooms": 5,
+  "price": 550000
+}
+
+### Property 20
+POST {{host}}/api/Properties
+Content-Type: application/json
+
+{
+  "title": "Apartament 1+1 pranë plazhit",
+  "location": "Vlorë - Uji i Ftohtë",
+  "type": "Apartment",
+  "bedrooms": 1,
+  "price": 97000
+}
+
+#############################
+# VISITS (20)
+# Assumes Agents IDs = 1..20 and Properties IDs = 1..20
+#############################
+
+### Visit 1
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 1,
+  "agentId": 2,
+  "visitorName": "Arta Shehu",
+  "visitDate": "2026-02-03T10:00:00Z"
+}
+
+### Visit 2
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 3,
+  "agentId": 1,
+  "visitorName": "Bledi Kola",
+  "visitDate": "2026-02-03T12:30:00Z"
+}
+
+### Visit 3
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 5,
+  "agentId": 4,
+  "visitorName": "Klea Dervishi",
+  "visitDate": "2026-02-04T09:15:00Z"
+}
+
+### Visit 4
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 2,
+  "agentId": 6,
+  "visitorName": "Ermal Prifti",
+  "visitDate": "2026-02-04T16:00:00Z"
+}
+
+### Visit 5
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 7,
+  "agentId": 3,
+  "visitorName": "Eni Lila",
+  "visitDate": "2026-02-05T11:45:00Z"
+}
+
+### Visit 6
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 8,
+  "agentId": 5,
+  "visitorName": "Rina Meta",
+  "visitDate": "2026-02-05T14:20:00Z"
+}
+
+### Visit 7
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 10,
+  "agentId": 7,
+  "visitorName": "Altin Gashi",
+  "visitDate": "2026-02-06T10:10:00Z"
+}
+
+### Visit 8
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 12,
+  "agentId": 8,
+  "visitorName": "Xhulio Beqiri",
+  "visitDate": "2026-02-06T13:00:00Z"
+}
+
+### Visit 9
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 11,
+  "agentId": 9,
+  "visitorName": "Livia Shala",
+  "visitDate": "2026-02-07T09:40:00Z"
+}
+
+### Visit 10
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 14,
+  "agentId": 10,
+  "visitorName": "Sindi Vata",
+  "visitDate": "2026-02-07T15:30:00Z"
+}
+
+### Visit 11
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 9,
+  "agentId": 11,
+  "visitorName": "Arjon Nika",
+  "visitDate": "2026-02-08T11:00:00Z"
+}
+
+### Visit 12
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 13,
+  "agentId": 12,
+  "visitorName": "Megi Hoxha",
+  "visitDate": "2026-02-08T17:10:00Z"
+}
+
+### Visit 13
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 15,
+  "agentId": 13,
+  "visitorName": "Dritan Leka",
+  "visitDate": "2026-02-09T10:25:00Z"
+}
+
+### Visit 14
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 16,
+  "agentId": 14,
+  "visitorName": "Sara Balla",
+  "visitDate": "2026-02-09T12:55:00Z"
+}
+
+### Visit 15
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 17,
+  "agentId": 15,
+  "visitorName": "Ema Çela",
+  "visitDate": "2026-02-10T09:05:00Z"
+}
+
+### Visit 16
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 18,
+  "agentId": 16,
+  "visitorName": "Ilir Berisha",
+  "visitDate": "2026-02-10T14:35:00Z"
+}
+
+### Visit 17
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 19,
+  "agentId": 17,
+  "visitorName": "Rea Doda",
+  "visitDate": "2026-02-11T11:20:00Z"
+}
+
+### Visit 18
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 20,
+  "agentId": 18,
+  "visitorName": "Klodian Zeka",
+  "visitDate": "2026-02-11T16:45:00Z"
+}
+
+### Visit 19
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 6,
+  "agentId": 19,
+  "visitorName": "Erisa Hoxha",
+  "visitDate": "2026-02-12T10:50:00Z"
+}
+
+### Visit 20
+POST {{host}}/api/Visits
+Content-Type: application/json
+
+{
+  "propertyId": 4,
+  "agentId": 20,
+  "visitorName": "Flutura Gashi",
+  "visitDate": "2026-02-12T13:15:00Z"
+}
