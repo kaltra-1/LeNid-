@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeNid Estate Manager — Dashboard</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="d-flex">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar bg-dark text-white p-4">
+        <h2 class="mb-4">LeNid <span class="text-warning">Real Estate</span></h2>
+
+        <a href="index.html" class="sidebar-link active">
+            <i class="fa-solid fa-gauge-high me-2"></i> Dashboard
+        </a>
+
+        <a href="properties.html" class="sidebar-link">
+            <i class="fa-solid fa-building me-2"></i> Properties
+        </a>
+
+        <a href="agents.html" class="sidebar-link">
+            <i class="fa-solid fa-user-tie me-2"></i> Agents
+        </a>
+
+        <a href="visits.html" class="sidebar-link">
+            <i class="fa-solid fa-calendar-check me-2"></i> Visits
+        </a>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow-1 p-4">
+    <h1 class="mb-4">Dashboard</h1>
+
+<div class="row g-4">
+
+    <!-- PROPERTIES CARD -->
+    <div class="col-md-4">
+        <div class="card shadow-sm p-4 dashboard-card border-start border-warning border-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h5>Total Properties</h5>
+                    <h2 id="totalProperties">0</h2>
+                </div>
+                <i class="fa-solid fa-building fa-3x text-warning"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- AGENTS CARD -->
+    <div class="col-md-4">
+        <div class="card shadow-sm p-4 dashboard-card border-start border-success border-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h5>Total Agents</h5>
+                    <h2 id="totalAgents">0</h2>
+                </div>
+                <i class="fa-solid fa-user-tie fa-3x text-success"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- VISITS CARD -->
+    <div class="col-md-4">
+        <div class="card shadow-sm p-4 dashboard-card border-start border-primary border-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h5>Scheduled Visits</h5>
+                    <h2 id="totalVisits">0</h2>
+                </div>
+                <i class="fa-solid fa-calendar-check fa-3x text-primary"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-4">
+
+<!-- CHARTS -->
+<div class="row g-4">
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+            <h5 class="mb-3">Visits Per Month</h5>
+            <canvas id="visitsChart"></canvas>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+            <h5 class="mb-3">Properties by Location</h5>
+            <canvas id="locationChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<hr class="my-4">
+
+<!-- RECENT ACTIVITY -->
+<div class="row">
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+            <h5 class="mb-3">Latest Properties Added</h5>
+            <ul id="recentProperties" class="list-group"></ul>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+            <h5 class="mb-3">Upcoming Visits</h5>
+            <ul id="upcomingVisits" class="list-group"></ul>
+        </div>
+    </div>
+</div>
+<!-- JS -->
+<script src="js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/charts.js"></script>
+
+</body>
+</html>
